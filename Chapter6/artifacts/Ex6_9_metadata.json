@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chapter6/Ex6.09.sol": "Ex6_9"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chapter6/Ex6.09.sol": {
+			"keccak256": "0x7cd9352e4a4089ab98ad5f005059cb56655e2d3be8070c341368450ecc225b89",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://02d43d74b85d6e4230dd7604beea401c3c76c5c04ca229c104c14fdc9f1dcb36",
+				"dweb:/ipfs/QmYivSk8wXMwtA2U2rhWndBikcDnE37aS3cMqBdjVbM15o"
+			]
+		}
+	},
+	"version": 1
+}

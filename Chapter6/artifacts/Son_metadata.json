@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "FatherName",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "MotherName",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "sonName",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "who",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chapter6/Ex6.11_other.sol": "Son"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chapter6/Ex6.11_other.sol": {
+			"keccak256": "0x066f0d510fb2fd999c60c1673e4399083087a7d87058ca1e916f1d8318d6bfcd",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3ac5fa481dd69dfee9cb7fa1fe62f139cc6313f1d93560b15986891a6dabf5e0",
+				"dweb:/ipfs/QmXDrXH1xkA2UQsVWQvTXHh19RVY8pc1DLsc53WFQjgo8C"
+			]
+		}
+	},
+	"version": 1
+}

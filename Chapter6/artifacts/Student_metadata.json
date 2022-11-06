@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "showCourses",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chapter6/Ex6.11.sol": "Student"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chapter6/Ex6.11.sol": {
+			"keccak256": "0x15595f0e16311ffbd524dd648c2d08d73313aecd62931930e859f07983235f42",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://df7e9afbae6fc39c9f13350d9fca11e333f0d8c14240f5266ed0653628d87c17",
+				"dweb:/ipfs/QmSCKdBawZ3zAfcE6qcMN1YrRqQC8jxfZPTB7oAbQgTD2F"
+			]
+		}
+	},
+	"version": 1
+}

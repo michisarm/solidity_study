@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "boot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Chapter6/Ex6.16.sol": "SmartPhone"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Chapter6/Ex6.16.sol": {
+			"keccak256": "0x006f9e0479c7c3942f698e4053f276858c1e58f6aab88b9c01f9f8b8808abffe",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5149875e7c8b6420290a03ffbc815275fddaf6815bbb1d4f3e80e7e2a1807eb2",
+				"dweb:/ipfs/QmVJ1cvyLWUxwUcUMmNTge2x4hVMovh9ECNMxcpGcDiYp7"
+			]
+		}
+	},
+	"version": 1
+}

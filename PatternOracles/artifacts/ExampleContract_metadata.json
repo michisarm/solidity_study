@@ -1,0 +1,148 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "myid",
+						"type": "bytes32"
+					},
+					{
+						"name": "result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "myid",
+						"type": "bytes32"
+					},
+					{
+						"name": "result",
+						"type": "string"
+					},
+					{
+						"name": "proof",
+						"type": "bytes"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "updatePrice",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "ETHUSD",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "nextStep",
+						"type": "string"
+					}
+				],
+				"name": "LogConstructorInitiated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "price",
+						"type": "string"
+					}
+				],
+				"name": "LogPriceUpdated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableQuery",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PatternOracles/ExampleContract.sol": "ExampleContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PatternOracles/ExampleContract.sol": {
+			"keccak256": "0x5ebfe3a451ac7ff84ae98301a55061f20a801c9080ab2442e6a6426cc5b99f9c",
+			"urls": [
+				"bzzr://9988be1f999d66deda6d4840e769f329ef4e8d224d3bf159b764206c8dc03010"
+			]
+		},
+		"github.com/provable-things/ethereum-api/blob/master/contracts/solc-v0.4.25/provableAPI.sol": {
+			"keccak256": "0xf987ff400d01257898b706a3f50d9a41db062791c00422db7ab0a6394e824667",
+			"urls": [
+				"bzzr://a7007b8efd4a4909e07ea7077b3468c28b81e49affa3e8ec56b2bf447a9c6256"
+			]
+		}
+	},
+	"version": 1
+}

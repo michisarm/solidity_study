@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "price",
+						"type": "string"
+					}
+				],
+				"name": "LogNewDieselPrice",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableQuery",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dieselPriceUSD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PatternOracles/DieselPrice.sol": "DieselPrice"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PatternOracles/DieselPrice.sol": {
+			"keccak256": "0x913884571addc295768c5c5066fd7ddfbb496fe32471e7dbf5e1f3ebc5b44e82",
+			"urls": [
+				"bzz-raw://abbf30f318dddbd583c3c0194cf9de3b0e7d2a50db9d6a35a62a711f56aae156",
+				"dweb:/ipfs/QmeeMq4WsMYprGv2i1kJYBmaihuatoQ3ppyw27ns5SWvC2"
+			]
+		},
+		"github.com/provable-things/ethereum-api/blob/master/provableAPI.sol": {
+			"keccak256": "0xff6b5e1e0e4eeca558a1ac9220ce17c283f696389929cdae8aacbf2d101300dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54996d70df2ca0b514c331ed076657342c0943f973196a8467653c8410ab2661",
+				"dweb:/ipfs/QmUutS1h1LXuZQnbYgHsxbgZMtqvJeBA4KVU7746xqdQ6P"
+			]
+		}
+	},
+	"version": 1
+}

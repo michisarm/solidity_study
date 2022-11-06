@@ -10,6 +10,7 @@ contract PartTimer {
     uint public workingHours = 6;
 }
 
+// 다중 상속 정의 방법
 contract Alice is ArtStudent, PartTimer {
     uint public totalHours = schoolHours + workingHours;
 }
